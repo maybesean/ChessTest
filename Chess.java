@@ -87,9 +87,9 @@ class ChessWidget extends JComponent implements  MouseListener{
 		}
 		for(int i =0; i<8; i++){
 			for(int x=0; x<8; x++){
-				while(board[i][x]%2==1){
+				if(x%2==1){
 					g2d.setColor(black);
-					g2d.fillRect(0, 0, i*80, i*80);
+					g2d.fillRect(i,x, i*80, i*80);
 				}
 			}
 		}
