@@ -9,6 +9,10 @@ import javax.swing.JComponent;
 import javax.swing.JFrame;
 
 
+//UIQWqwfehioqwefhheuqwhefqfhqowefghqweuighuioweghuioweghioweughuqweighuiweghghqgwe
+
+
+
 public class Chess extends JFrame{
 		
 		public Chess(){
