@@ -27,6 +27,7 @@ public class Chess extends JFrame{
 
 public static void main(String[] args) {
 	// create a main object and make it visible
+	//I want some taquitos
 	Chess object = new Chess();
 	object.setVisible(true);
 	}
